@@ -1,9 +1,9 @@
 {
-    "name": "node-red-contrib-ads1x15_i2c",
-    "version": "0.0.14",
+    "name": "node-red-contrib-ads1x15_i2c-dev-0",
+    "version": "0.0.15",
     "description": "A node-red node providing access to a ADS1x15 I2C analog to digital converter",
     "dependencies": {
-      "ads1x15": ">=1.1.0"
+      "ads1x15": ">=1.2.0"
     },
     "directories": {
       "doc": "doc"
@@ -15,7 +15,7 @@
     },
     "repository": {
       "type": "git",
-      "url": "git://github.com/meeki007/node-red-contrib-ads1x15_i2c.git"
+      "url": "git://github.com/piikei/node-red-contrib-ads1115_i2c-dev-0.git"
     },
     "keywords": [
       "node-red",
@@ -27,10 +27,10 @@
       "analog to to digital converter",
       "digital converter"
     ],
-    "author": "David 'Meeki007' Burrows",
+    "author": "Pascal Keel, forked from David 'Meeki007' Burrows",
     "license": "Apache-2.0",
     "bugs": {
-      "url": "https://github.com/meeki007/node-red-contrib-ads1x15_i2c/issues"
+      "url": "https://github.com/piikei/node-red-contrib-ads1115_i2c-dev-0/issues"
     },
-    "homepage": "https://github.com/meeki007/node-red-contrib-ads1x15_i2c#readme"
+    "homepage": "https://github.com/piikei/node-red-contrib-ads1115_i2c-dev-0"
 }
