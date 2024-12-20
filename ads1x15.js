@@ -122,7 +122,7 @@ module.exports = function(RED) {
 
         //is Bus ready - load device address number
         var bus_ready; //error check of bus_ready
-        Promise.resolve (adc.openBus(this.i2c_device_number))
+        Promise.resolve (adc.openBus(0))
         .then( bus_ready = true )
         .catch(error => {
             bus_ready = ("adc.openBus: " + error),
